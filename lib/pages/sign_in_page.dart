@@ -16,7 +16,7 @@ class SignInPage extends StatelessWidget {
           children: [
             Text(
               'Welcome!',
-              style: headerTextStyle.copyWith(
+              style: blackTextStyle.copyWith(
                 fontWeight: bold,
                 fontSize: 24,
               ),
@@ -26,7 +26,7 @@ class SignInPage extends StatelessWidget {
             ),
             Text(
               'Let’s sign in now',
-              style: headerTextStyle.copyWith(
+              style: blackTextStyle.copyWith(
                 fontWeight: bold,
                 fontSize: 24,
               ),
@@ -140,7 +140,7 @@ class SignInPage extends StatelessWidget {
           children: [
             Text(
               'Forgot Password?',
-              style: headerTextStyle.copyWith(
+              style: blackTextStyle.copyWith(
                 fontSize: 16,
                 fontWeight: medium,
               ),
@@ -184,7 +184,7 @@ class SignInPage extends StatelessWidget {
         child: Center(
           child: Text(
             'or continue with',
-            style: headerTextStyle.copyWith(
+            style: blackTextStyle.copyWith(
               fontSize: 16,
               fontWeight: medium,
             ),
@@ -225,7 +225,7 @@ class SignInPage extends StatelessWidget {
                   ),
                   Text(
                     'Google Account',
-                    style: headerTextStyle.copyWith(
+                    style: blackTextStyle.copyWith(
                       fontSize: 16,
                       fontWeight: semibold,
                     ),
@@ -246,7 +246,7 @@ class SignInPage extends StatelessWidget {
           children: [
             Text(
               'Don\’t have an account? ',
-              style: headerTextStyle.copyWith(
+              style: blackTextStyle.copyWith(
                 fontSize: 16,
                 fontWeight: regular,
               ),
@@ -260,7 +260,7 @@ class SignInPage extends StatelessWidget {
               },
               child: Text(
                 'Sign up',
-                style: linkTextStyle.copyWith(
+                style: blueTextStyle.copyWith(
                   fontSize: 16,
                   fontWeight: medium,
                 ),
