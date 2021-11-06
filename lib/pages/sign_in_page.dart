@@ -115,6 +115,7 @@ class SignInPage extends StatelessWidget {
                     ),
                     Expanded(
                       child: TextFormField(
+                        obscureText: true,
                         decoration: InputDecoration.collapsed(
                           hintText: 'Password',
                           hintStyle: secondaryTextStyle,
@@ -272,6 +273,7 @@ class SignInPage extends StatelessWidget {
     }
 
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       backgroundColor: backgroundColor1,
       body: SafeArea(
         child: Container(
